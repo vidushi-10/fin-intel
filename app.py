@@ -76,7 +76,7 @@ st.info("Using Gemini 3.1 Flash-Lite for optimized free-tier performance.")
 
 company = st.text_input("Enter Company Name:", placeholder="e.g. NVIDIA, Tesla")
 
-if st.button("🚀 Run Analysis"):
+if st.button("Run Analysis"):
     if not company:
         st.warning("Please enter a company name.")
     else:
@@ -91,7 +91,7 @@ if st.button("🚀 Run Analysis"):
                 st.markdown("---")
                 st.subheader(f"Intelligence Report: {company}")
                 st.markdown(str(result))
-                st.success("✅ Analysis Complete")
+                st.success("Analysis Complete")
             except Exception as e:
                 if "429" in str(e):
                     st.error("Rate Limit Hit: The agents are working too fast for the free tier. Wait 30 seconds and try again.")

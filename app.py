@@ -9,7 +9,7 @@ from crewai.tools import tool
 st.set_page_config(page_title="Fin-Intel 2026 Pro", page_icon="📊", layout="wide")
 
 # Your Provided Key
-api_key = "AIzaSyCR56-g9T4ft9qarvNr6aNV2DnkbnbUE40"
+api_key = "Google_API_Key"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 # --- 2. 2026 "LITE" MODEL CONFIG ---

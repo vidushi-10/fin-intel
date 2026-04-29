@@ -33,7 +33,6 @@ Rate Control: 10 RPM Global Safety Cap
 
 Installation & Setup
 
-pip install streamlit crewai langchain-community \
 google-genai duckduckgo-search
 streamlit run app.py
 

@@ -1,3 +1,14 @@
+---
+title: Fin Intel
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.45.1"
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
 Project Overview
 
 Fin-Intel is a professional-grade autonomous research platform. It utilizes a Sequential Process where specialized AI agents coordinate to search the live web and synthesize financial intelligence into actionable risk reports.
